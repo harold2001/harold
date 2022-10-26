@@ -1,0 +1,319 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      background-color: #FFFFFF;
+}
+
+
+/* -------------- SELECTORES GENERALES -------------- */
+
+/* ----- CONTENEDOR PRINCIPAL ----- */
+.contenedor-principal {
+      max-width: 1440px;
+      margin: auto;
+}
+
+/* ------------- FUENTES --------------- */
+h1 {
+      text-align: left;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 63.98px;
+}
+
+.debajo-titulo {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17.07px;
+      font-style: italic;
+}
+
+.h3-ingredients-instructions {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 24px;    
+      line-height: 31.99px;
+}
+
+.h4-graham-cheesecake {
+      font-family: 'Playfair Display', serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 18px;
+      line-height: 23.99px;
+      margin: 24px 0;
+}
+
+/* TEXTO LISTA CUADRO EN MEDIO */
+.span-text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 25px;
+}
+
+.h4-servings {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 12.19px;
+      color: #bdbdbd;
+}
+
+.p-orange {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #F2994A;
+}
+
+.p-black {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #333333;
+}
+
+.cajita-orange {
+      font-family: 'Playfair Display', serif;
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      padding: auto;
+}
+.p-abajo {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      width: 528px;
+}
+a {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 16px;
+      line-height: 150%px;
+      color: #BDBDBD;
+      text-decoration: none;
+}
+
+footer {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #828282;
+}
+
+strong {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+}
+
+.strong-username {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      text-decoration: underline;
+      color: #828282;
+
+}
+
+/* ----------------- OTROS SELECTORES ----------------- */
+
+/* -------------- ARRIBA: TÍTULO HASTA IMAGEN GRANDE -------------- */
+.contenedor-arriba{
+      display: flex;
+      flex-direction: column;
+      margin: 35px auto 17px ;
+      gap: 20px;
+      width: 969px;
+}
+
+ .texto-dots{
+      display: flex;
+      align-items: baseline;
+      justify-items: flex-start;
+      gap: 10px;
+      width: 592px;
+ }
+
+.dots{
+      width: 13px;
+      height: 8px;
+}
+
+.foto-cheesecake {
+      width: 969px;
+      height: 470px;
+      margin: 20px auto 30px auto;
+      border-radius: 12px;
+}
+
+
+/* -------------- MEDIO: INGREDIENTES Y SERVINGS -------------- */
+/* ----- CAJA GRANDE PRINCIPAL ----- */
+.contenedor-medio {
+      display: flex;
+      width: 969px;
+      margin: auto;
+      justify-content: space-between;
+}
+
+
+/* ------ CAJA 1: MEDIO-INGREDIENTES/IZQUIERDA ----- */
+.medio-ingredientes {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0px;
+
+}
+
+/* ------ CAJA ARRIBA ----- */
+.medio-ingredientes1 {
+      display: flex;
+      flex-direction: column;
+      gap: .7rem;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 581px;
+}
+
+.cajitas1 {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: flex-end;
+      padding: 1.5px 1rem .15rem .5rem;
+}
+
+.cajita {
+      border: 1px solid black;
+      height: 21px;
+      width: 21px;
+      border-radius: 5px;
+      margin: .2rem;
+}
+
+.cajita-position {
+      position: relative;
+      bottom: 1.3rem;
+}
+
+.spans1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: .7rem;
+      width: 554px;
+}
+
+/* ------ CAJA ABAJO ----- */
+.medio-ingredientes2 {
+      display: flex;
+      flex-direction: column;
+      gap: .7rem;
+      width: 581px;
+      margin-top: 18px;
+}
+
+.cajita-span {
+      display: flex;
+      gap: 1rem;
+      padding-left: .5rem;
+
+}
+
+.span-text {
+      width: 543px;
+}
+
+/* ----- CAJA 2: MEDIO-SERVINGS/DERECHA ----- */
+.medio-servings {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 300px;
+      border-radius: 12px;
+      gap: 1.5rem;
+      box-shadow: 0px 0px 20px #0000001A;
+}
+
+.description {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      width: 122px;
+      height: 34px;
+}
+
+.description-icon-orange {
+      color: #F2994A;
+      width: 27.09px;
+      height: 25.14px;
+      text-align: center;
+}
+
+.description-icon {
+      color: #4f4f4f;
+      width: 28.33px;
+      height: 26.52px;
+      text-align: center;
+}
+
+/* -------------- ABAJO: INSTRUCTIONS Y CAJAS ANARANJADAS -------------- */
+.contenedor-abajo {
+      width: 969px;
+      height: 1440px;
+      margin: 28px auto 57px auto;
+      /* display: flex;
+      flex-direction: column; */
+      gap: 27px;
+
+}
+
+.contenedor-general-cajita-p{
+      width: 969px;
+      height: 1300px;
+      margin: 28px auto 57px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 27px;
+}
+
+.contenedor-cajita-p {
+      display: flex;
+      gap: 26px;
+      
+}
+
+.cajita-orange {
+      background-color: #F2994A;
+      width: 36px;
+      height: 36px;
+      border-radius: 6px;
+}
+
+a {
+      display: block;
+}
+
+footer {
+      width: 969px;
+      margin: 25px auto;
+}
